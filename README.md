@@ -32,29 +32,12 @@ automatically. Nothing else to do.
 
 ---
 
-## What the files are
 
 ```
-index.html      the entire page
-support.js      Claude Design runtime — do not edit
-image-slot.js   image placeholder component — do not edit
-_ds/            design system (fonts, colours, component styles) — do not edit
-assets/         logos, favicon, background pattern
-_redirects      sends unknown URLs to index.html instead of a 404
-netlify.toml    caching and security headers
-```
 
-Only `index.html` and `assets/` are meant to be edited by hand.
-
-
-**Do not touch the MX records.** They point at Google Workspace. Changing them, or moving
-the nameservers away from STRATO, stops SRVU email from arriving.
-
-To test without risk, add `CNAME new → <your-site>.netlify.app` first. That gives you
-`new.srvu.org` while the live site stays exactly as it is.
 
 Note there is currently a **separate WordPress site** live at `srvu.org`. Pointing the
-domain here replaces it. That's a board decision, not a technical one.
+domain here replaces it. 
 
 ---
 
