@@ -381,8 +381,8 @@
 
       <h2 style="font-family: Caprasimo, serif; font-size: clamp(30px, 3.2vw, 44px); margin: 0 0 12px; letter-spacing: -0.02em">This year's board</h2>
       <p style="font-size: 18px; color: #645c50; margin: 0 0 44px">Room 0D-03, in the main building (HG). Come by and knock, we're often here all weekdays between 11:00 and 17:00.</p>
-      <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 24px; margin-bottom: 80px">
-        <sc-for list="{{ board }}" as="p" hint-placeholder-count="5">
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 80px">
+        <sc-for list="{{ board }}" as="p" hint-placeholder-count="3">
           <div style="display: grid; grid-template-rows: auto 2.6em auto; gap: 0">
             <div class="washed" style="border-radius: 24px; overflow: hidden; aspect-ratio: 3 / 4; margin-bottom: 16px; background: #dcd3c4">
               <image-slot id="{{ p.slot2 }}" shape="rect" placeholder="Portrait"></image-slot>
