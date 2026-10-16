@@ -139,7 +139,8 @@
         <div style="max-width: 1200px; margin: 0 auto; padding: 84px 32px">
           <h2 style="font-family: Caprasimo, serif; font-size: clamp(32px, 3.4vw, 50px); margin: 0 0 14px; letter-spacing: -0.02em">Meet the board</h2>
           <p style="font-size: 18px; max-width: 40em; color: #645c50; margin: 0 0 46px">Three students dedicating a year of their studies to representing you. Come visit us in the StudentenD0k, we'd love to meet you!</p>
-          <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 24px">
+          <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; justify-items: center; text-align: center">
+          <!--<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 24px">-->
             <sc-for list="{{ board }}" as="p" hint-placeholder-count="5">
               <div style="text-align: center; display: grid; grid-template-rows: auto 2.6em auto">
                 <div class="washed" style="border-radius: 50%; overflow: hidden; aspect-ratio: 1; margin-bottom: 16px; background: #dcd3c4">
